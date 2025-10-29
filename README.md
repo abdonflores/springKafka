@@ -1,10 +1,10 @@
 # Tareas - Curso Spring - Kafka
 
 **Autor**: Luis Abdon Flores  
-**Curso**: [Docker & Kubernetes - i-Quattro](https://iquattrogroup.com/mod/url/view.php?id=1251)
+**Curso**: Spring & kafka 
 
 ---
 
 ## 📚 Índice
 
-- [Clase 1](clase1/)  (https://iquattrogroup.com/mod/url/view.php?id=1251) 
+- [Clase 1](clase1/)  (https://github.com/abdonflores/springKafka/tree/main/mi-primer-springboot)
