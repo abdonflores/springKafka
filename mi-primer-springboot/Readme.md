@@ -150,7 +150,7 @@ Este mensaje indica que el servidor web embebido Apache Tomcat se ha iniciado co
 - Por ejemplo: `http://localhost:8080/api/usuarios`
 
 **Cómo cambiar el puerto:**
-Puedes modificar el puerto en `application.properties`:
+Se puede modificar el puerto en `application.properties`:
 ```properties
 server.port=9090
 ```
