@@ -50,7 +50,7 @@ Carpeta generada automáticamente por Maven al compilar o empaquetar el proyecto
 - El archivo JAR/WAR ejecutable
 - Reportes de pruebas
 ---
-## 📄 Archivos importantes
+## Archivos importantes
 ### `.gitattributes`
 Define cómo Git maneja ciertos archivos (finales de línea, codificación, etc.), especialmente útil en entornos multiplataforma.
 ### `.gitignore`
