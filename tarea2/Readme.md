@@ -8,7 +8,7 @@
 - **Java:** 17
 - **Build Tool:** Maven
 ## Estructura del Proyecto
-
+```
 ├───.idea
 ├───.mvn
 │   └───wrapper
@@ -27,7 +27,7 @@
 │   │       ├───static
 │   │       └───templates
 │   └───test
-
+```
 ## Comandos para Levantar, para o reinciar
 
 ### Levantar contenedores
