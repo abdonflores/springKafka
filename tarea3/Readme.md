@@ -105,9 +105,9 @@ docker@ubuntu:~/cursoSpringKafka$
 ```
 
 ### Ver el estado de los contenedores
- 
+ ```
 docker-compose ps
- 
+ ```
 
 ```
 docker@ubuntu:~/cursoSpringKafka$ docker-compose ps
@@ -145,6 +145,7 @@ Este error se dispara por fallas en la validación de los DTOs usando Bean Valid
     "path": "/api/products"
 }
 ```
+
 ### Error 409 Conflict (DataConflictException)
 Este error se dispara por violaciones de integridad del negocio, como duplicados o intentar eliminar una categoría que está en uso
 ```
