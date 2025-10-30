@@ -105,8 +105,7 @@ docker@ubuntu:~/cursoSpringKafka$
 ```
 
 ### Ver el estado de los contenedores
-
-```
+ 
 docker-compose ps
  
 
