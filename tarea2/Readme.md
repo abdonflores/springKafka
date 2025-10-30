@@ -3,7 +3,7 @@
 
 ## Información del Proyecto
 
-- **Nombre:** mi-primer-springboot
+- **Nombre:** CLASE NRO 2 CRUD
 - **Versión de Spring Boot:** 3.x.x
 - **Java:** 17
 - **Build Tool:** Maven
