@@ -117,3 +117,42 @@ NAME          IMAGE                COMMAND                  SERVICE    CREATED  
 postgres_db   postgres:15-alpine   "docker-entrypoint.s…"   postgres   57 minutes ago   Up 57 minutes   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp
 docker@ubuntu:~/cursoSpringKafka$
 ```
+
+## Manejo de errores
+
+### Error 404.
+Error 404 Not Found (ResourceNotFoundException)
+Este error se dispara cuando se intenta acceder a un recurso que no existe (por ejemplo, un ID que no está en la base de datos). entonces se personaliza el error,
+
+```
+
+{
+    "timestamp": "2025-10-29T22:29:59.650979",
+    "status": 404,
+    "error": "Not Found",
+    "message": "Producto no encontrado con id: 9999",
+    "path": "/api/products/9999"
+}
+```
+
+### Error 400 Bad Request (MethodArgumentNotValidException)
+Este error se dispara por fallas en la validación de los DTOs usando Bean Validation. El cuerpo del error debe mostrar el mensaje legible del archivo ValidationMessages.properties
+```
+{
+    "timestamp": "2025-10-29T22:34:28.3832693",
+    "status": 400,
+    "error": "Bad Request",
+    "message": "Errores de validación: {categoryId={product.categoryId.notnull}}",
+    "path": "/api/products"
+}
+### Error 409 Conflict (DataConflictException)
+Este error se dispara por violaciones de integridad del negocio, como duplicados o intentar eliminar una categoría que está en uso
+```
+{
+    "timestamp": "2025-10-29T22:37:24.2983886",
+    "status": 409,
+    "error": "Conflict",
+    "message": "El nombre de la categoría ya existe: Electrónica",
+    "path": "/api/categories"
+}
+```
